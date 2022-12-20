@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <div id="main">
+                <div class="main-item">
+                    <p id="progressText" class="main-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="main-item">
+                    <p class="main-prefix">
+                        Score
+                    </p>
+                    <h1 class="main-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h1 id="question">What is the answer to this question?</h1>
+            <div class="option-container">
+                <p class="option-prefix">A</p>
+                <p class="option-text" data-number="1">option</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">B</p>
+                <p class="option-text" data-number="2">option 2</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">C</p>
+                <p class="option-text" data-number="3">option 3</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">D</p>
+                <p class="option-text" data-number="4">option 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
